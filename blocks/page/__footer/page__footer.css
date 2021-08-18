@@ -1,0 +1,8 @@
+.page__footer {
+  max-width: 1184px;
+  margin: 0 auto;
+  margin-top: 92px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
