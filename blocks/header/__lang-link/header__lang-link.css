@@ -1,5 +1,5 @@
 .header__lang-link {
-  margin-left: 18px;
+  padding-left: 18px;
   text-decoration: none;
   color: #ffffff;
 }
@@ -9,6 +9,13 @@
 }
 
 .header__lang-link:first-child {
-  margin-left: 0;
   text-decoration-line: underline;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    max-width: 22px;
+    max-height: 20px;
+  }
 }
