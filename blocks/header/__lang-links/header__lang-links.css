@@ -12,7 +12,12 @@
   padding-top: 46px;
   padding-right: 48px;
 }
-
+@media screen and (max-width: 465px) {
+  .header__lang-links {
+    padding-top: 30px;
+    padding-right: 16px;
+  }
+}
 @media screen and (max-width: 320px) {
   .header__lang-links {
     padding-top: 30px;

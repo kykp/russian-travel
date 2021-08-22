@@ -1,4 +1,6 @@
 .header__lang-link {
+  font-family: "Inter", Arial, sans-serif;
+  font-weight: 400;
   padding-left: 18px;
   text-decoration: none;
   color: #ffffff;
@@ -11,6 +13,12 @@
 .header__lang-link:first-child {
   text-decoration-line: underline;
   padding-left: 0;
+}
+@media screen and (max-width: 465px) {
+  .header__lang-link {
+    max-width: 22px;
+    max-height: 20px;
+  }
 }
 
 @media screen and (max-width: 320px) {

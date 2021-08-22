@@ -1,6 +1,14 @@
 .places__paragraphs {
 }
 
+@media screen and (max-width: 465px) {
+  .places__paragraphs {
+    margin-top: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .places__paragraphs {
     margin-top: 32px;

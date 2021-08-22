@@ -16,7 +16,16 @@
 }
 
 .page__cover:hover {
-  opacity: 0.8;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../../../images/cover-trains.jpg);
+}
+
+.page__cover:before {
+  content: "";
+  width: 0;
+  height: 0;
+  margin-left: -1px;
+  padding-top: calc(740 / 1184 * 100%);
 }
 
 @media screen and (max-width: 1024px) {
@@ -34,7 +43,15 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
+  .page__cover {
+    margin-top: 66px;
+    max-width: 320px;
+    max-height: 200px;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .page__cover {
     margin-top: 66px;
     max-width: 320px;
