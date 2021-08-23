@@ -12,4 +12,4 @@
 
 - ✨И еще немного магии
 
-https://github.com/kykp/russian-travel.git
+https://kykp.github.io/russian-travel/index.html
