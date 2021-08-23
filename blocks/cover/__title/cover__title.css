@@ -7,14 +7,18 @@
   line-height: 76px;
 }
 
+@media screen and (max-width: 550px) {
+  .cover__title {
+    max-width: 540px;
+  }
+}
+
 @media screen and (max-width: 505px) {
   .cover__title {
     margin-top: 33px;
     font-size: 32px;
     line-height: 35px;
     max-width: 288px;
-    padding-left: 15%;
-    padding-right: 15%;
   }
 }
 @media screen and (max-width: 320px) {
