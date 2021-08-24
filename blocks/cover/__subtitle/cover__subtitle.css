@@ -6,13 +6,8 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
+  z-index: 0;
 }
-
-@media screen and (max-width: 768px) {
-  .cover__subtitle {
-  }
-}
-
 @media screen and (max-width: 505px) {
   .cover__subtitle {
     min-width: 288px;

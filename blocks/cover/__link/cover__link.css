@@ -1,4 +1,22 @@
 .cover__link {
   color: #ffffff;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 1px;
+  position: relative;
+  text-align: center;
+}
+
+.cover__link:hover::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
 }
