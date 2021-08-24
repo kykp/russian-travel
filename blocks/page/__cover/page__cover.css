@@ -4,12 +4,16 @@
   margin-left: 48px;
   margin-right: 48px;
 }
+@media screen and (max-width: 1024px) {
+  .page__cover {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .page__cover {
     margin-top: 90px;
-    margin-left: 0;
-    margin-right: 0;
   }
 }
 @media screen and (max-width: 320px) {

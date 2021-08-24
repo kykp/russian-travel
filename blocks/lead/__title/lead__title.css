@@ -9,8 +9,24 @@
   font-size: 96px;
   line-height: 100px;
 }
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    margin-top: 48px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .lead__title {
+    font-size: 40px;
+  }
+}
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 512px) {
+  .lead__title {
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .lead__title {
     max-width: 288px;
     font-size: 40px;

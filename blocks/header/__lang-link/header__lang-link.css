@@ -13,3 +13,9 @@
     max-width: 22px;
   }
 }
+
+@media screen and (max-width: 325px) {
+  .header__lang-link {
+    font-size: 18px;
+  }
+}
