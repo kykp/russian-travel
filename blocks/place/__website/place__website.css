@@ -1,18 +1,19 @@
-.places__paragraphs {
+.place__website {
+  align-self: end;
 }
-
 @media screen and (max-width: 465px) {
-  .places__paragraphs {
-    margin-top: 32px;
+  .place__website {
     margin-left: 16px;
     margin-right: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
 }
-
 @media screen and (max-width: 320px) {
-  .places__paragraphs {
-    margin-top: 32px;
+  .place__website {
     margin-left: 16px;
     margin-right: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
 }
