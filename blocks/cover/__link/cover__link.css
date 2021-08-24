@@ -9,6 +9,7 @@
   padding: 1px;
   position: relative;
   text-align: center;
+  background: #2a2c2f30;
 }
 
 .cover__link:hover::before {

@@ -17,12 +17,3 @@
     line-height: 16px;
   }
 }
-@media screen and (max-width: 320px) {
-  .cover__subtitle {
-    min-width: 288px;
-    min-height: 70px;
-    margin-top: 16px;
-    font-size: 14px;
-    line-height: 16px;
-  }
-}
