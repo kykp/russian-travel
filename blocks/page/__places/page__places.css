@@ -5,11 +5,11 @@
 
 @media screen and (max-width: 768px) {
   .page__places {
-    margin-top: 88px;
+    margin-top: 85px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .page__places {
     margin-top: 64px;
   }
