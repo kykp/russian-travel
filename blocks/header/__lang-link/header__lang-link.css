@@ -1,12 +1,15 @@
 .header__lang-link {
   font-family: "Inter", Arial, sans-serif;
   font-weight: 400;
-  padding-left: 18px;
+  margin-left: 18px;
   text-decoration: none;
   color: #ffffff;
 }
 .header__lang-link:first-child {
   padding-left: 0;
+}
+.header__lang-link:hover {
+  border-bottom: 3px solid rgb(255, 255, 255);
 }
 @media screen and (max-width: 465px) {
   .header__lang-link {

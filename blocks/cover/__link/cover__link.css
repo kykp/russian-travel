@@ -11,10 +11,11 @@
   text-align: center;
   background: #2a2c2f30;
 }
-
+.cover__link:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 .cover__link:hover::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.6);
   top: 0;
   left: 0;
   right: 0;

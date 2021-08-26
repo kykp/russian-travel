@@ -10,15 +10,9 @@
 
 @media screen and (max-width: 390px) {
   .intro__title {
-    font-size: 45px;
+    font-size: 40px;
   }
 }
-@media screen and (max-width: 330px) {
-  .intro__title {
-    font-size: 35px;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .intro__title {
     max-width: 288px;
