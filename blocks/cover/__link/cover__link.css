@@ -9,16 +9,8 @@
   padding: 1px;
   position: relative;
   text-align: center;
-  background: #2a2c2f30;
+  background: rgb(42, 44, 47, 0.3);
 }
 .cover__link:hover {
   background-color: rgba(0, 0, 0, 0.8);
-}
-.cover__link:hover::before {
-  content: "";
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  position: absolute;
 }
